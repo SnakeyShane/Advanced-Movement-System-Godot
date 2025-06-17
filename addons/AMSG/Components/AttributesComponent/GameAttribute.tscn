@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bkw0qe3jh352j"]
 
-[ext_resource type="Script" path="res://addons/AMSG/Components/AttributesComponent/GameAttribute.gd" id="1_ksoe7"]
+[ext_resource type="Script" uid="uid://t6ldc3r42i2w" path="res://addons/AMSG/Components/AttributesComponent/GameAttribute.gd" id="1_ksoe7"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_j6ls8"]
 properties/0/path = NodePath(".:current_value")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ccqctdss4s6u5"]
 
-[ext_resource type="Script" path="res://addons/PoseWarping/PoseWarping.gd" id="1_lecgu"]
+[ext_resource type="Script" uid="uid://df2c8ypjr7caa" path="res://addons/PoseWarping/PoseWarping.gd" id="1_lecgu"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8kjlp"]
 albedo_color = Color(1, 0.337255, 0, 1)

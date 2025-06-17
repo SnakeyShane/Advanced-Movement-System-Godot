@@ -1,9 +1,9 @@
 [gd_scene load_steps=59 format=3 uid="uid://cth47yn1duvdh"]
 
 [ext_resource type="PackedScene" uid="uid://ccqctdss4s6u5" path="res://addons/PoseWarping/PoseWarping.tscn" id="1_bk0at"]
-[ext_resource type="Script" path="res://addons/AMSG/Components/CharacterMovementComponent.gd" id="1_ewnep"]
+[ext_resource type="Script" uid="uid://c6lf2s1jn7mk2" path="res://addons/AMSG/Components/CharacterMovementComponent.gd" id="1_ewnep"]
 [ext_resource type="Resource" uid="uid://buhjkpv85gdmi" path="res://AMSG_Examples/Character/standing_movement_values.tres" id="2_c4o7m"]
-[ext_resource type="Script" path="res://addons/AMSG/Components/CameraComponent.gd" id="2_d5854"]
+[ext_resource type="Script" uid="uid://bfotn4bmthpvn" path="res://addons/AMSG/Components/CameraComponent.gd" id="2_d5854"]
 [ext_resource type="PackedScene" uid="uid://dsdvjuk7muqkf" path="res://addons/AMSG/Components/AnimationComponents/AnimationTreeComponent.tscn" id="3_86f8p"]
 [ext_resource type="Resource" uid="uid://bo31hnmxahuqb" path="res://AMSG_Examples/Character/crouch_movement_values.tres" id="3_p3fng"]
 [ext_resource type="ArrayMesh" uid="uid://wpxkyy82pcud" path="res://AMSG_Examples/Character/Mesh/Character_Alpha_Joints.res" id="5_0247x"]
@@ -27,7 +27,7 @@
 [ext_resource type="Animation" uid="uid://f8m1upuenduu" path="res://AMSG_Examples/Character/Animations/TurnRight.res" id="23_qis1m"]
 [ext_resource type="Animation" uid="uid://xxj1rcp4b5k0" path="res://AMSG_Examples/Character/Animations/Walk.res" id="24_rjymo"]
 [ext_resource type="Animation" uid="uid://bl4cuhnoma34i" path="res://AMSG_Examples/Character/Animations/WalkingBackward.res" id="25_fd0ml"]
-[ext_resource type="Script" path="res://addons/AMSG/Components/Interaction.gd" id="26_8j4xc"]
+[ext_resource type="Script" uid="uid://bp7v3ivw2c7xn" path="res://addons/AMSG/Components/Interaction.gd" id="26_8j4xc"]
 [ext_resource type="AudioStream" uid="uid://bpnobn6wg8hxp" path="res://AMSG_Examples/Character/footstep_sound/footstep2.wav" id="27_cpdra"]
 [ext_resource type="PackedScene" uid="uid://dpniuhmc5sj82" path="res://addons/AMSG/Components/MantleComponent/MantleComponent.tscn" id="28_6ac02"]
 
@@ -423,26 +423,26 @@ length = 0.001
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_5egkr"]
 _data = {
-"CrouchIdle": ExtResource("7_e4twx"),
-"CrouchWalkingForward": ExtResource("8_y04sm"),
-"Falling": ExtResource("9_el410"),
-"FallingStart": ExtResource("10_ceyl8"),
-"FallingToRoll": ExtResource("11_g0fkm"),
-"HardFalling": ExtResource("12_feqar"),
-"Idle": ExtResource("13_6mj36"),
-"Idle1": ExtResource("14_8a0t0"),
-"Idle2": ExtResource("15_h6xx4"),
-"JogForward": ExtResource("16_1nyic"),
-"Jogbackward": ExtResource("17_5glyf"),
-"Kick": ExtResource("18_bjcll"),
-"RESET": SubResource("Animation_uns1n"),
-"Run": ExtResource("19_q06n7"),
-"RunToStop": ExtResource("20_fsxql"),
-"TPose": ExtResource("21_wy311"),
-"TurnLeft": ExtResource("22_j0xj5"),
-"TurnRight": ExtResource("23_qis1m"),
-"Walk": ExtResource("24_rjymo"),
-"WalkingBackward": ExtResource("25_fd0ml")
+&"CrouchIdle": ExtResource("7_e4twx"),
+&"CrouchWalkingForward": ExtResource("8_y04sm"),
+&"Falling": ExtResource("9_el410"),
+&"FallingStart": ExtResource("10_ceyl8"),
+&"FallingToRoll": ExtResource("11_g0fkm"),
+&"HardFalling": ExtResource("12_feqar"),
+&"Idle": ExtResource("13_6mj36"),
+&"Idle1": ExtResource("14_8a0t0"),
+&"Idle2": ExtResource("15_h6xx4"),
+&"JogForward": ExtResource("16_1nyic"),
+&"Jogbackward": ExtResource("17_5glyf"),
+&"Kick": ExtResource("18_bjcll"),
+&"RESET": SubResource("Animation_uns1n"),
+&"Run": ExtResource("19_q06n7"),
+&"RunToStop": ExtResource("20_fsxql"),
+&"TPose": ExtResource("21_wy311"),
+&"TurnLeft": ExtResource("22_j0xj5"),
+&"TurnRight": ExtResource("23_qis1m"),
+&"Walk": ExtResource("24_rjymo"),
+&"WalkingBackward": ExtResource("25_fd0ml")
 }
 
 [node name="Character" type="CharacterBody3D"]

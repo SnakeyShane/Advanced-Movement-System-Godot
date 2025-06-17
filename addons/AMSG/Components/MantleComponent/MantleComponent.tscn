@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dpniuhmc5sj82"]
 
-[ext_resource type="Script" path="res://addons/AMSG/Components/MantleComponent/MantleComponent.gd" id="1_ix4sf"]
+[ext_resource type="Script" uid="uid://d2iabqaws0odc" path="res://addons/AMSG/Components/MantleComponent/MantleComponent.gd" id="1_ix4sf"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_70w0s"]
 resource_local_to_scene = true

@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="movement_values" load_steps=2 format=3 uid="uid://bo31hnmxahuqb"]
 
-[ext_resource type="Script" path="res://addons/AMSG/Data/movement_values.gd" id="1_i6rpj"]
+[ext_resource type="Script" uid="uid://blgxx7d8eka77" path="res://addons/AMSG/Data/movement_values.gd" id="1_i6rpj"]
 
 [resource]
 script = ExtResource("1_i6rpj")

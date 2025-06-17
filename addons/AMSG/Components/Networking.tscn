@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cegbfvlakd2rw"]
 
-[ext_resource type="Script" path="res://addons/AMSG/Components/PlayerNetworkingComponent.gd" id="1_88p3o"]
+[ext_resource type="Script" uid="uid://8wgeqbw6h3do" path="res://addons/AMSG/Components/PlayerNetworkingComponent.gd" id="1_88p3o"]
 
 [sub_resource type="SceneReplicationConfig" id="SceneReplicationConfig_rxj2q"]
 properties/0/path = NodePath(":sync_camera_h_transform")
