@@ -1,6 +1,6 @@
 [gd_scene load_steps=45 format=3 uid="uid://dsdvjuk7muqkf"]
 
-[ext_resource type="Script" uid="uid://cg2vra5n51v2q" path="res://addons/AMSG/Components/AnimationComponents/AnimationBlend.gd" id="1_iikhh"]
+[ext_resource type="Script" path="res://addons/AMSG/Components/AnimationComponents/AnimationBlend.gd" id="1_iikhh"]
 [ext_resource type="AnimationNodeStateMachinePlayback" uid="uid://b8p1518kwrou2" path="res://addons/AMSG/Components/AnimationComponents/StandingStateMachine.tres" id="2_oomli"]
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mb2kt"]
@@ -28,11 +28,9 @@ sync = true
 xfade_time = 0.3
 input_0/name = "stand"
 input_0/auto_advance = false
-input_0/break_loop_at_end = false
 input_0/reset = true
 input_1/name = "crouch"
 input_1/auto_advance = false
-input_1/break_loop_at_end = false
 input_1/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_id6x0"]
@@ -74,11 +72,9 @@ animation = &"Jogbackward"
 [sub_resource type="AnimationNodeTransition" id="AnimationNodeTransition_mk3d0"]
 input_0/name = "Forward"
 input_0/auto_advance = false
-input_0/break_loop_at_end = false
 input_0/reset = true
 input_1/name = "Backward"
 input_1/auto_advance = false
-input_1/break_loop_at_end = false
 input_1/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_6bsh6"]
@@ -116,11 +112,9 @@ animation = &"WalkingBackward"
 [sub_resource type="AnimationNodeTransition" id="AnimationNodeTransition_tyxgb"]
 input_0/name = "Forward"
 input_0/auto_advance = false
-input_0/break_loop_at_end = false
 input_0/reset = true
 input_1/name = "Backward"
 input_1/auto_advance = false
-input_1/break_loop_at_end = false
 input_1/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3y4dp"]
